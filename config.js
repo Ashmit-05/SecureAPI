@@ -4,7 +4,7 @@ exports.serverPort = 3000;
 exports.sessionSecret = process.env.SESSION_SECRET;
 exports.rate = {
     windowMs : 5*60*1000,
-    max : 100,
+    max : 10,
 };
 exports.proxies = {
     "/search" : {
